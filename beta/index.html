@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Dimitris Nioras</title>
+    <link rel='shortcut icon' href='images/dimNioras-logo-small.svg'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel='stylesheet' href='style.css' type='text/css'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <style>
+        #map{ width: 1400px; height: 800px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class='bgImage'></div>
+        <div class='logo'><img src='images/dimNioras-logo-small-512px.png' width=60px height=60px/></div>
+        <div class='navBar'>
+            <ul class='navList'>
+                <li class='home'><a href='#'>Home</a></li>
+                <li class='projects'><a href='#'>Projects</a></li>
+                <li class='athPTHistory'><a href='#'>Athens PT History</a></li>
+                <li class='paperBusModels'><a href='#'>PaperBusModels</a></li>
+            </ul>
+        </div>
+        <h1>Dimitris Nioras</h1>
+        <h2>Transit Planner, Spatial Analyst, Software Developer</h2>
+        <a href='#' class='btn'>Menu</a>
+    </header>
+
+    <div class='wrapper'>
+        <div class='header'>
+            <div class='logo'></div>
+        </div>
+    </div>
+
+    </nav>
+    
+    <div id="map"></div>
+
+    <script>
+
+        // initialize the map
+        var map = L.map('map').setView([37.98, 23.73], 12);
+
+        // load a tile layer
+        L.tileLayer('https://api.mapbox.com/styles/v1/dimnioras/cjk20dkpj06sf2skphvquv88x/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGltbmlvcmFzIiwiYSI6ImNqNGE3cWR4ODB5d2czMnBubzdmYzl6bmMifQ.alch9v-xY_0eG-KUq3ZErA',
+            {
+            attribution: 'Υπόβαθρο: <a href="http://mapbox.com">MapBox</a>, Δεδομένα: <a href="http://www.oasa.gr">ΟΑΣΑ</a>',
+            maxZoom: 17,
+            minZoom: 9
+            }).addTo(map);
+
+  </script>
+</body>
+</html>
