@@ -1021,8 +1021,15 @@
 		}
 
 	#header {
-		background-color: #383b43;
+		background: linear-gradient(rgba(200, 200, 210, 0.5), rgba(200, 200, 210, 0.5)), url(../images/header.jpg) no-repeat center center fixed #000;
+		background-position: center center;
+		background-size: fill;
 		color: #ffffff;
+		/*padding: 14em 0em 14em;
+		text-align: center;
+        
+        background-color: #383b43;
+		color: #ffffff;*/
 		cursor: default;
 		font-size: 1.1em;
 		height: 6em;
@@ -1124,7 +1131,7 @@
 	#banner {
 		background: linear-gradient(rgba(200, 200, 210, 0.5), rgba(200, 200, 210, 0.5)), url(../images/header.jpg) no-repeat center center fixed #000;
 		background-position: center center;
-		background-size: auto;
+		background-size: fill;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
