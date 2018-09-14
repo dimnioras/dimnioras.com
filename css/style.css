@@ -859,6 +859,23 @@
 
 /* Button */
 
+/*.button {
+    -moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+} 
+
+.button.nav{
+    
+}
+*/
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -874,7 +891,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #507cd5;
-		border-radius: 30px;
+		border-radius: 10px;
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
