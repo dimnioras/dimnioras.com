@@ -50,13 +50,11 @@
 	}
 
 		#navButton .toggle:before {
-			content: "";
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
+			content: url(../images/bars-solid.svg);
+            padding-left:20px;
+            padding-right:20px;
+            padding-bottom:5px;
+            padding-top:5px;
 		}
 
 		#navButton .toggle:before {
