@@ -24,6 +24,9 @@
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/style-xlarge.css" />
     </noscript>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 
@@ -78,7 +81,11 @@
     <div class="container">
         <section>
             <h2>Mollis ut adipiscing</h2>
-            <a href="#" class="image fit"><img src="/images/banner.jpg" alt="" /></a>
+            <a class="image fit">
+                <div id='map' style='body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; height: 100%}; width: 100%; height: 900px;'></div>
+            <script src="/js/athens-archive-map.js"></script></a>
+            <!--<a href="#" class="image fit"><img src="/images/banner.jpg" alt="" /></a>-->
             <p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
             <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
         </section>
@@ -117,21 +124,19 @@
                     <div class="6u">
                         <h3>Useful Links</h3>
                         <ul class="alt">
-                            <li><a href="https://www.cmap.illinois.gov">Chicago Metropolitan Agency for Planning (CMAP)</a></li>
                             <li><a href="https://www.transitchicago.com">Chicago Transit Authority (CTA)</a></li>
-                            <li><a href="https://oasa.gr">Athens Public Transportation Organization (OASA)</a></li>
-                            <li><a href="https://ite.org">Institute of Transportation Engineers (ITE)</a></li>
-                            <li><a href="http://www.ses.gr">Hellenic Institute of Transportation Engineers (SES)</a></li>
-                            <li><a href="https://yptransportation.org">Young Professionals in Transportation (YPT)</a></li>
+                            <li><a href="https://www.cmap.illinois.gov">Chicago Metropolitan Agency for Planning (CMAP)</a></li>
+                            <li><a href="https://transportchicago.org">Transport Chicago Conference</a></li>
                             <li><a href="https://chi.streetsblog.org">Streetsblog Chicago</a></li>
+                            <li><a href="https://oasa.gr">Athens Public Transportation Organization (OASA)</a></li>
+                            <li><a href="http://www.ses.gr">Hellenic Institute of Transportation Engineers (SES)</a></li>
                         </ul>
                     </div>
                     <div class="6u">
                         <h3>Site Map</h3>
                         <ul class="alt">
-                            <li><a href="./documents/dimNioras-resume.pdf">Resume</a></li>
-                            <li><a href="#">Projects in Chicago</a></li>
-                            <li><a href="#">Projects in Athens</a></li>
+                            <li><a href="https://1drv.ms/b/s!Anm5k7Y-VBLrgQR-cSo-89AVzKa6?e=oBzSFR">Resume</a></li>
+                            <li><a href="/projects.html">My Projects</a></li>
                             <li><a href="https://dimnioras.wordpress.com/athens-public-transport-history-en/">Athens Public Transportation Archive</a></li>
                             <li><a href="https://gitlab.com/dimnioras/paperbusmodels">Paper Bus Models</a></li>
                             <li><a href="/blog.html">Blog</a></li>

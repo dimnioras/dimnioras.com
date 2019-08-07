@@ -1,27 +1,23 @@
 @charset "UTF-8";
 @font-face {
-    font-family: Gidole;
-    src: url(../fonts/Gidole-Regular.ttf);
-}
-@font-face {
-    font-family: LiberationSerif;
-    src: url(../fonts/LiberationSerif-Regular.ttf);
+    font-family: LiberationSans;
+    src: url(../fonts/LiberationSans-Regular.ttf);
     font-style: normal;
 }
 @font-face {
-    font-family: LiberationSerif;
-    src: url(../fonts/LiberationSerif-Italic.ttf);
+    font-family: LiberationSans;
+    src: url(../fonts/LiberationSans-Italic.ttf);
     font-style: italic;
 }
 @font-face {
-    font-family: LiberationSerif;
-    src: url(../fonts/LiberationSerif-BoldItalic.ttf);
+    font-family: LiberationSans;
+    src: url(../fonts/LiberationSans-BoldItalic.ttf);
     font-style: italic;
     font-weight: bold;
 }
 @font-face {
-    font-family: LiberationSerif;
-    src: url(../fonts/LiberationSerif-Bold.ttf);
+    font-family: LiberationSans;
+    src: url(../fonts/LiberationSans-Bold.ttf);
     font-weight: bold;
 }
 
@@ -39,9 +35,9 @@
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: Gidole;
-		font-size: 14pt;
-		font-weight: 400;
+		font-family: LiberationSans, Arial, sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -649,6 +645,29 @@
 		margin: 0 0 2em 0;
 	}
 
+/* Map */
+    .btn-control {
+        font:bold 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background-color: #3386c0;
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        z-index: 1;
+        border: none;
+        width: 200px;
+        margin-left:-100px;
+        display: block;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+ 
+    .btn-control:hover {
+        background-color: #4ea0da;
+    }
+
+
 /* Table */
 
 	.table-wrapper {
@@ -1051,8 +1070,7 @@
 			}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			font-family: LiberationSerif, serif;
-            letter-spacing: 0.05em;
+            /*letter-spacing: 0.05em;*/
             color: #002b80;
 		}
 
