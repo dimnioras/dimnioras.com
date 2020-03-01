@@ -4,11 +4,11 @@
     <title>Dimitris Nioras</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Aug 2019 21:18:51 -0500</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 21:18:51 -0500</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
+    <link>http://dimnioras.gitlab.io/</link>
+    <atom:link href="http://dimnioras.gitlab.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 01 Mar 2020 17:15:09 -0600</pubDate>
+    <lastBuildDate>Sun, 01 Mar 2020 17:15:09 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Curabitur</title>
@@ -22,8 +22,8 @@ Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. S
 &lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2015/02/17/Curabitur.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/17/Curabitur.html</guid>
+        <link>http://dimnioras.gitlab.io/2015/02/17/Curabitur.html</link>
+        <guid isPermaLink="true">http://dimnioras.gitlab.io/2015/02/17/Curabitur.html</guid>
         
         
       </item>
@@ -38,8 +38,8 @@ Suspendisse pellentesque mollis turpis, vitae ullamcorper arcu sagittis in. Pell
 &lt;p&gt;Sed consequat mi id malesuada efficitur. Vestibulum efficitur tortor ut dictum porta. Morbi dapibus viverra risus, et laoreet lorem commodo et. Donec hendrerit posuere magna a efficitur. Nullam euismod eget nulla eget iaculis. Donec porttitor faucibus porta. Morbi et risus dolor. Mauris venenatis sem id neque hendrerit ultrices.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Feb 2015 08:37:44 -0600</pubDate>
-        <link>http://localhost:4000/update/2015/02/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/update/2015/02/06/welcome-to-jekyll.html</guid>
+        <link>http://dimnioras.gitlab.io/update/2015/02/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://dimnioras.gitlab.io/update/2015/02/06/welcome-to-jekyll.html</guid>
         
         
         <category>update</category>
@@ -60,8 +60,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus fringilla 
 &lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Jan 2015 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2015/01/30/Lorem.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/01/30/Lorem.html</guid>
+        <link>http://dimnioras.gitlab.io/2015/01/30/Lorem.html</link>
+        <guid isPermaLink="true">http://dimnioras.gitlab.io/2015/01/30/Lorem.html</guid>
         
         
       </item>
