@@ -1,44 +1,28 @@
 <template>
-  <div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-      <img src="../static/dimNioras-logo-small-512px.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+<div>
+  <b-navbar toggleable="md" type="dark" variant="dark">
+    <b-navbar-brand href="/">
+      <img src="../static/dimNioras-logo-small-512px.png" width="30" height="30" class="d-inline-block align-top" alt="DN">
       Dimitris Nioras
-    </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    </b-navbar-brand>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-  </div>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav  class="ml-auto">
+        <b-nav-item href="/documents/dimNioras-resume.pdf" target="_blank">Resume</b-nav-item>
+        <b-nav-item-dropdown text="Projects" right>
+          <b-dropdown-item><nuxt-link to="/research-projects">Research Projects</nuxt-link></b-dropdown-item>
+          <b-dropdown-divider></b-dropdown-divider>
+          <b-dropdown-item><nuxt-link to="/athens-public-transit-archive">Athens Public Transit Archive</nuxt-link></b-dropdown-item>
+          <b-dropdown-item><nuxt-link to="/paper-bus-models">Paper Bus Models</nuxt-link></b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-button variant="outline-secondary" href="mailto:dimnioras@icloud.com">Contact</b-button>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
 </template>
 
 <script>
@@ -48,5 +32,5 @@ export default {
 </script>
 
 <style>
-  
+
 </style>
