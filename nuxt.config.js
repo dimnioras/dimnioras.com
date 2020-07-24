@@ -15,11 +15,14 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Dimitris Nioras' || '',
+    title: 'Dimitris Nioras - dev' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+    ],
+    script: [
+      {src: 'https://kit.fontawesome.com/4b8c469e8d.js', crossorigin: 'anonymous'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/dimNioras-logo-small-512px.png' }
