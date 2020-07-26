@@ -1,25 +1,25 @@
 <template>
   <div>
-    <SiteHeader></SiteHeader>
+    <SiteNavbar />
     <Nuxt />
-    <SiteFooter></SiteFooter>
+    <SiteFooter />
   </div>
 </template>
 
 <script>
-import SiteHeader from '../components/SiteHeader'
+import SiteNavbar from '../components/SiteNavbar'
 import SiteFooter from '../components/SiteFooter'
 
 export default {
   components: {
-    SiteHeader,
+    SiteNavbar,
     SiteFooter
   }
 }
 </script>
 
 <style>
-html {
+/*html {
   font-family:
     'Source Sans Pro',
     -apple-system,
@@ -72,5 +72,5 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
-}
+}*/
 </style>
