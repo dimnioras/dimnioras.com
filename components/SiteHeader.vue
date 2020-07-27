@@ -4,27 +4,36 @@
       <div class="header-image">
 			</div>
 			<div class="header-text">
-  			<h1 class="text-dark">Dimitris Nioras</h1>
-				<p class="text-dark">Transportation Systems Engineer</p>
+  			<div>
+					<h1 class="text-dark">Dimitris Nioras</h1>
+					<p class="text-dark">Transportation Systems Engineer</p>
+				</div>
 			</div>
     </div>
     <div class="container intro text-center text-dark">
-			<h1>Welcome to my website!</h1>
-			<h4>I am a Transportation Planner and Engineer, Spatial Analyst and
-				Software Enthusiast with a passion about Public Transportation Systems,
-				including Strategic and Service Planning, Scheduling, Policy and Management.
-				Currently working as a Bus Service Planner at the Chicago Transit Authority.
-				Feel free to browse my website and learn more about my activities.</h4>
+			<div>
+				<h1>Welcome to my website!</h1>
+				<hr>
+				<p>I am a Transportation Systems Engineer with a passion about<br>
+					Public Transportation Systems, Sustainable Mobility, and Technology and Data in Transportation.<br>
+					Feel free to browse my website and learn more about my research and hobby projects,<br>
+					or contact me if you have any questions.</p>
+			</div>
 		</div>
-    <div class="cards">
-
+    <div class="cards bg-light">
+			<SiteCard />
     </div>
   </div>
 </template>
 
 <script>
+import SiteCard from './SiteCard'
+
 export default {
-	name: 'SiteHeader'
+	name: 'SiteHeader',
+	components: {
+		SiteCard
+	}
 }
 </script>
 
@@ -54,6 +63,9 @@ export default {
 	}
 
 	.header-text {
+		display: flex;
+    align-items: center;
+		justify-content: center;
 	  position: absolute;
 	  left: 0;
 	  right: 0;
@@ -70,7 +82,17 @@ export default {
 		text-shadow: 2px 2px 8px #FFFFFF;
 	}
 	.intro {
-		min-height: 30vh;
+		display: flex;
+    align-items: center;
+		justify-content: center;
+		min-height: 20vh;
 		padding: 20px 20px;
+	}
+	.cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 30vh;
+		padding: 30px;
 	}
 </style>
