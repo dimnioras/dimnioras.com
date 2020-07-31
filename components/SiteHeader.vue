@@ -20,19 +20,17 @@
 					or contact me if you have any questions.</p>
 			</div>
 		</div>
-    <div class="cards bg-light">
-			<SiteCard />
-    </div>
+    <IntroCards />
   </div>
 </template>
 
 <script>
-import SiteCard from './SiteCard'
+import IntroCards from './IntroCards'
 
 export default {
 	name: 'SiteHeader',
 	components: {
-		SiteCard
+		IntroCards
 	}
 }
 </script>
@@ -87,12 +85,5 @@ export default {
 		justify-content: center;
 		min-height: 20vh;
 		padding: 20px 20px;
-	}
-	.cards {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-height: 30vh;
-		padding: 30px;
 	}
 </style>
