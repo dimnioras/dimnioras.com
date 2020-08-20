@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+    <SiteBanner bannerTitle="Paper Bus Models" bannerSize="20vh"></SiteBanner>
   </div>
 </template>
 

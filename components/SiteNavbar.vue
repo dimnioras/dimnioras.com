@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'SiteHeader'
+  name: 'SiteNavbar'
 }
 </script>
 

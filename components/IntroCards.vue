@@ -11,38 +11,38 @@
 </template>
 
 <script>
-import SiteCard from './SiteCard'
-
-export default {
-  name: 'IntroCards',
-  data: function () {
-    return {
-      introCardData: [
-        {
-					name: 'Research Projects',
-          description: 'Click here to see transit-related research projects I completed and shared at conferences and meetings',
-          link: '/research-projects',
-          icon: 'fas fa-project-diagram'
-				},
-				{
-					name: 'Athens Public Transport Archive',
-          description: 'This project is a dynamic archive of the history of public transport in my hometown, Athens, Greece. Click here to see a collection of maps and brochures from 1979 to date.',
-          link: '/athens-public-transport-archive',
-          icon: 'fas fa-map'
-				},
-				{
-					name: 'Paper Bus Models',
-          description: 'This is my first transit-related hobby project. Click to see a collection of paper bus model designs that you can print and assemble on your own.',
-          link: '/paper-bus-models',
-          icon: 'fas fa-bus'
-				}
-      ]
-    }
-  },
-	components: {
-		SiteCard
-	}
-}
+  import SiteCard from './SiteCard'
+  
+  export default {
+    name: 'IntroCards',
+    data: function () {
+      return {
+        introCardData: [
+          {
+  					name: 'Research Projects',
+            description: 'Click here to see transit-related research projects I completed and shared at conferences and meetings',
+            link: '/research-projects',
+            icon: 'fas fa-project-diagram'
+  				},
+  				{
+  					name: 'Athens Public Transport Archive',
+            description: 'This project is a dynamic archive of the history of public transport in my hometown, Athens, Greece. Click here to see a collection of maps and brochures from 1979 to date.',
+            link: '/athens-public-transport-archive',
+            icon: 'fas fa-map'
+  				},
+  				{
+  					name: 'Paper Bus Models',
+            description: 'This is my first transit-related hobby project. Click to see a collection of paper bus model designs that you can print and assemble on your own.',
+            link: '/paper-bus-models',
+            icon: 'fas fa-bus'
+  				}
+        ]
+      }
+    },
+  	components: {
+  		SiteCard
+  	}
+  }
 </script>
 
 <style>

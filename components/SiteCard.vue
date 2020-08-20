@@ -4,7 +4,7 @@
 			<b-card-title><i :class="cardIcon+' fa-3x'"></i></b-card-title>
 			<b-card-title>{{ cardTitle }}</b-card-title>
 	    <b-card-text>{{ cardDescription }}</b-card-text>
-	    <b-button :to=cardLink variant="primary">Research Projects</b-button>
+	    <b-button :to=cardLink variant="primary">Learn More</b-button>
 	  </b-card>
 	</div>
 </template>
