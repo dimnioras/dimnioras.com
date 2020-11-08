@@ -9,6 +9,9 @@ cache:
 
 pages:
   script:
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
     - npm run generate
   artifacts:
     paths:
