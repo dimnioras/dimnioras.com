@@ -9,7 +9,7 @@ cache:
 
 pages:
   script:
-    - nuxt export
+    - npm run export
   artifacts:
     paths:
       - public
