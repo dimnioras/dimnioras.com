@@ -9,7 +9,8 @@ cache:
 
 pages:
   script:
-    - npm run generate
+    - npm run build
+    - npm run export
   artifacts:
     paths:
       - public
