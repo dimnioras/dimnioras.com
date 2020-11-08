@@ -22,7 +22,9 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-      {src: 'https://kit.fontawesome.com/4b8c469e8d.js', crossorigin: 'anonymous'}
+      {src: 'https://kit.fontawesome.com/4b8c469e8d.js', crossorigin: 'anonymous'},
+      {src: 'https://fonts.googleapis.com/css?family=Muli:200,300,400,700'},
+      {src: 'https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/dimNioras-logo-small-512px.png' }
