@@ -10,10 +10,10 @@ cache:
 pages:
   script:
     - npm run build
-    - npm run export
   artifacts:
     paths:
       - public
   only:
     - master
-
+  deploy:
+    - npm run export
