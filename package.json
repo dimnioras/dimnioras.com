@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "nuxt --openssl-legacy-provider start",
+    "generate": "nuxt --openssl-legacy-provider generate"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
