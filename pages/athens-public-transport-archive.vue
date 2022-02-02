@@ -3,6 +3,7 @@
     <SiteBanner bannerTitle="Athens Public Transport Archive" bannerSize="20vh"></SiteBanner>
     <div class="container intro text-center text-dark">
 			<div>
+        <h2>Αρχείο Ιστορίας Αστικών Συγκοινωνιών της Αθήνας</h2>
 				<p>Στη σελίδα αυτή θα βρείτε αρχείο χαρτών και φυλλαδίων σχετικών με την ιστορία των αστικών συγκοινωνιών της Αθήνας.
           Δημιούργησα το συγκεκριμένο αρχείο με σκοπό την υλοποίηση μιας ελεύθερης και προσβάσιμης ηλεκτρονικής συλλογής για όσους τους ενδιαφέρει
           ο συγκοινωνιακός σχεδιασμός και η ιστορική εξέλιξη του δικτύου της Αθήνας.</p>
@@ -20,6 +21,7 @@
           </p>
           <p>Θα χαρώ πολύ να προστεθούν και νέα μέλη στην παραπάνω λίστα!</p>
 				<hr>
+        <h2>Athens Public Transport Archive</h2>
 				<p>In this page you can find an archive of maps and brochures related to the history of public transport in Athens, Greece. 
           I created this with the goal of developing a free and accessible online collection for those interested in public transport network design 
           and the history and evolution of the Athens network over time.</p>
@@ -54,6 +56,9 @@
 </script>
 
 <style scoped>
+  h2 {
+    font-family: 'sans-serif';
+  }
   p {
     font-family: 'sans-serif';
   }
