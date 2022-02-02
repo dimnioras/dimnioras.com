@@ -48,6 +48,23 @@
   import SiteBanner from '../components/SiteBanner'
 
   export default {
+    head() {
+      return {
+        title: 'Athens Public Transport Archive',
+        meta: [
+          {
+            hid: 'title',
+            name: 'title',
+            content: 'Αρχείο Χαρτών και Φυλλαδίων Σχετικών με την Ιστορία των Αστικών Συγκοινωνιών της Αθήνας'
+          },
+          {
+            hid: 'description',
+            name: 'description',
+            content: process.env.npm_package_description
+          }
+        ]
+      }
+    },
     components: {
       ArchiveCards,
       SiteBanner
