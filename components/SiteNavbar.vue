@@ -14,10 +14,9 @@
         <b-nav-item href="/documents/dimNioras-resume.pdf" target="_blank">Resume</b-nav-item>
         <b-nav-item-dropdown text="Projects" right>
           <b-dropdown-item><nuxt-link to="/research-projects">Research Projects</nuxt-link></b-dropdown-item>
+          <b-dropdown-item><nuxt-link to="/athens-public-transport-archive">Athens Public Transport Archive</nuxt-link></b-dropdown-item>
           <b-dropdown-divider></b-dropdown-divider>
-          <!--<b-dropdown-item><nuxt-link to="/athens-public-transport-archive">Athens Public Transport Archive</nuxt-link></b-dropdown-item>
-          <b-dropdown-item><nuxt-link to="/paper-bus-models">Paper Bus Models</nuxt-link></b-dropdown-item>-->
-          <b-dropdown-item href="https://dimnioras.wordpress.com/athens-public-transport-history-en/" target="_blank">Athens Public Transport Archive</b-dropdown-item>
+          <!--<b-dropdown-item><nuxt-link to="/paper-bus-models">Paper Bus Models</nuxt-link></b-dropdown-item>-->
           <b-dropdown-item href="https://gitlab.com/dimnioras/paperbusmodels" target="_blank">Paper Bus Models</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-button variant="outline-secondary" href="mailto:dimnioras@icloud.com">Contact</b-button>

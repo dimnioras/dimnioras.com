@@ -27,13 +27,13 @@
   				{
   					name: 'Athens Public Transport Archive',
             description: 'This project is a dynamic archive of the history of public transport in my hometown, Athens, Greece. Click here to see a collection of maps and brochures from 1979 to date.',
-            link: '/'/*'/athens-public-transport-archive'*/,
+            link: '/athens-public-transport-archive',
             icon: 'fas fa-map'
   				},
   				{
   					name: 'Paper Bus Models',
             description: 'This is my first transit-related hobby project. Click to see a collection of paper bus model designs that you can print and assemble on your own.',
-            link: '/'/*'/paper-bus-models'*/,
+            link: '/paper-bus-models',
             icon: 'fas fa-bus'
   				}
         ]

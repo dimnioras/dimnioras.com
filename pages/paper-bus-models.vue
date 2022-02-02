@@ -6,7 +6,9 @@
 
 <script>
 export default {
-  
+  created() {
+      window.location.href = 'https://gitlab.com/dimnioras/paperbusmodels'
+    }
 }
 </script>
 
