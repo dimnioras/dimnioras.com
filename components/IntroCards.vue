@@ -20,7 +20,7 @@
         introCardData: [
           {
   					name: 'Research Projects',
-            description: 'Some research projects I worked on and published at conferences and meetings',
+            description: 'Some research projects I worked on and published at conferences and meetings.',
             link: '/research-projects',
             icon: 'fas fa-project-diagram'
   				},
