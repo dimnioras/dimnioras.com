@@ -1,20 +1,7 @@
-# dimnioras.gitlab.io
+# dimnioras.com
 
-## Build Setup
+Personal website with info on professional experience, highlights, and other projects.
 
-```bash
-# install dependencies
-$ npm install
+## Technical details
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+The website is created using MkDocs, a Static Site Generator (SSG) that utilizes Markdown to create pages.
