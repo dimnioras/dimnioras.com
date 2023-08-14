@@ -1,0 +1,49 @@
+site_name: Dimitris Nioras M.Sc., M.Eng.
+site_url: https://www.dimnioras.com/
+nav:
+  - Home: index.md
+  - Resume: assets/documents/DimitrisNioras_resume_20230801.pdf
+  - Research Projects: research-projects/index.md
+  - Athens Public Transport Archive: athens-public-transport-archive/index.md
+  - Transport for Athens: https://www.transportforathens.org
+  - Paper Bus Models: https://gitlab.com/dimnioras/paperbusmodels
+theme:
+  name: material
+  language: en
+  logo: assets/images/dimNioras-logo-small-512px.png
+  favicon: assets/images/dimNioras-logo-small-512px.png
+  font:
+    text: Open Sans
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+extra_css:
+  - assets/stylesheets/extra.css
+plugins:
+  - search
+#  - social:
+#      cards_color:
+#        fill: '#004a87'
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://dimnioras.com/
+    - icon: fontawesome/solid/graduation-cap
+      link: https://scholar.google.com/citations?hl=en&user=nAbj-sAAAAAJ
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dimnioras
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dimnioras/
+    
+  copyright: Copyright
