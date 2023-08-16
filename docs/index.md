@@ -4,7 +4,7 @@ I am a Transportation Systems Engineer passionate with Public Transportation Sys
 
 Feel free to browse my website and learn more about my research and hobby projects, or contact me if you have any questions.
 
-## [Resume](assets/documents/dimNioras-resume.pdf)
+## [Resume](assets/documents/DimitrisNioras_resume_20230815.pdf)
 
 Learn more about my current work experience. Also, feel free to visit my [LinkedIn profile](https://www.linkedin.com/in/dimnioras) to get more details.
 
