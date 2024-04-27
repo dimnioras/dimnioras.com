@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - Resume: assets/documents/DimitrisNioras_resume_20231101.pdf
   - Research Projects: research-projects/index.md
-  - Athens Public Transport Archive: athens-public-transport-archive/index.md
+  - Athens Public Transport History: athens-public-transport-history/index.md
   - Transport for Athens: https://www.transportforathens.org
   - Paper Bus Models: https://gitlab.com/dimnioras/paperbusmodels
 theme:

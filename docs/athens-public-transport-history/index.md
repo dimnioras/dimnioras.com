@@ -1,5 +1,6 @@
 * [Χάρτες (Maps)](https://u.pcloud.link/publink/show?code=kZnt7xXZBPE9jCRtPUy8thBv6fQkQpqd6YRX)
-* [Φυλλάδια (Brochures)](https://u.pcloud.link/publink/show?code=kZh67xXZzwClVBbivlVQT6HNqgv95z0rhY1k)
+* [Ψηφιακός Χάρτης Αρχικού Σχεδίου 1979 (1979 Plan Digital Map)](https://felt.com/map/Shedio-Astikon-Sygkoinonion-Eyryteris-Periohis-Athinon-1979-2eps1HtkTgGCIbpzRXuw2D?loc=37.999,23.6763,11.62z&share=1)
+*  [Φυλλάδια (Brochures)](https://u.pcloud.link/publink/show?code=kZh67xXZzwClVBbivlVQT6HNqgv95z0rhY1k)
 
 ## Σχετικά με το Αρχείο Ιστορίας Αστικών Συγκοινωνιών της Αθήνας
 
@@ -19,7 +20,7 @@
 
 Θα χαρώ πολύ να προστεθούν και νέα μέλη στην παραπάνω λίστα!
 
-## About Athens Public Transport Archive
+## About Athens Public Transport History Archive
 
 This archive includes maps and brochures related to the history of public transport in Athens, Greece. I created this with the goal of developing a free and accessible online collection for those interested in public transport network design and the history and evolution of the Athens network over time.
 

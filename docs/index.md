@@ -12,7 +12,7 @@ Learn more about my current work experience. Also, feel free to visit my [Linked
 
 Some research projects I worked on and published at conferences and meetings.
 
-## [Athens Public Transport Archive](athens-public-transport-archive/index.md)
+## [Athens Public Transport History](athens-public-transport-history/index.md)
 
 An archive of the history of public transport in my hometown, Athens, Greece. It includes a collection of maps and brochures from 1962 to date.
 
