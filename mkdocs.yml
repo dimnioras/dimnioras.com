@@ -32,11 +32,10 @@ extra_css:
   - assets/stylesheets/extra.css
 plugins:
   - search
+  - social:
+      cards_layout_options.background_color: '#004a87'
 markdown_extensions:
   - attr_list
-#  - social:
-#      cards_color:
-#        fill: '#004a87'
 extra:
   social:
     - icon: fontawesome/solid/globe
