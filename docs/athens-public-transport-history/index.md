@@ -1,5 +1,5 @@
 * [Χάρτες (Maps)](https://u.pcloud.link/publink/show?code=kZnt7xXZBPE9jCRtPUy8thBv6fQkQpqd6YRX){:target="_blank"}
-* [Ψηφιακός Χάρτης Αρχικού Σχεδίου 1979 (1979 Plan Digital Map)](https://felt.com/map/Shedio-Astikon-Sygkoinonion-Eyryteris-Periohis-Athinon-1979-2eps1HtkTgGCIbpzRXuw2D?loc=37.999,23.6763,11.62z&share=1){:target="_blank"}
+* [Ψηφιακός Χάρτης Αρχικού Σχεδίου 1979 (1979 Plan Digital Map)](https://qgiscloud.com/dimnioras/athens-transport-history-cloud/?l=routes%2CAthens_Light_Base&t=athens-transport-history-cloud&e=461942%2C4199422%2C489035%2C4213392){:target="_blank"}
 *  [Φυλλάδια (Brochures)](https://u.pcloud.link/publink/show?code=kZh67xXZzwClVBbivlVQT6HNqgv95z0rhY1k){:target="_blank"}
 
 ## Σχετικά με το Αρχείο Ιστορίας Αστικών Συγκοινωνιών της Αθήνας

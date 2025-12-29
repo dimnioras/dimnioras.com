@@ -1,10 +1,10 @@
 # Welcome to my Website!
 
-I am a Transportation Systems Engineer passionate with Public Transportation Systems, Sustainable Mobility, and Technology and Data in Transportation. I am currently a Service Planner II - Bus at Chicago Transit Authority.
+I am a Transportation Systems Engineer passionate with Public Transportation Systems, Sustainable Mobility, and Technology and Data in Transportation. I am currently the Senior Manager of Service Planning at Chicago Transit Authority, where I oversee the short- and mid-term planning of the bus and rail network for the third largest public transportation organization in the United States.
 
 Feel free to browse my website and learn more about my research and hobby projects, or contact me if you have any questions.
 
-## [Resume](assets/documents/DimitrisNioras_resume_20231101.pdf){:target="_blank"}
+## [Resume](assets/documents/DimitrisNioras_resume_20251229.pdf){:target="_blank"}
 
 Learn more about my current work experience. Feel free to visit my [LinkedIn profile](https://www.linkedin.com/in/dimnioras) to get more details.
 
